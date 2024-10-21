@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    font-size: 20px ;
+}
+/* .random-color-generator-container{
+    display: flex;
+    gap: 15px;
+
+} */
+.hex-color-container{
+  min-height: 100vh;
+  flex: 1 ;
+}
+.hex-color-container button {
+    padding: 12px 20px;
+    cursor:  pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+.hex-color-container{
+    background-color: #7ae7e7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.hex-color-value{
+ font-size: 40px;
+ font-weight: bold;
+ color: white;
+}
